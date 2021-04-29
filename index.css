@@ -1,0 +1,165 @@
+#box:hover {
+    cursor: pointer;
+}
+body {
+    background: url(background.jpg);
+}
+.seperation {
+    background: url(woodsep.jpg);
+}
+#sep1 {
+    position: fixed;
+    top: 0;
+    left: 9.5cm;
+    height: 100%;
+    width: 10px;
+    z-index: 1;
+}
+#sep2 {
+    position: fixed;
+    top: 0;
+    left: 26.5cm;
+    height: 100%;
+    width: 10px;
+    z-index: 1;
+}
+#sep3 {
+    position: fixed;
+    top: 100px;
+    left: 369px;
+    height: 10px;
+    width: 635px;
+    background: url(woodbox1.jpg);
+    z-index: 0;
+}
+#wood {
+    border-radius: 50%;
+    height: 300px;
+    position: fixed;
+    overflow: hidden;
+    top: 220px;
+    left: 525px;
+    width: 300px;
+    background-image: url(woodmain.jpg);
+    filter: saturate(150%);
+    image-rendering: auto;
+    background-size: cover;
+}
+#wood:hover {
+    cursor: pointer;
+    height: 325px;
+    width: 325px;
+    left: 512.5px;
+    top: 207.5px;
+}
+#woodinfo {
+    background: rgba(0, 0, 0, 0.678);
+    height: 90px;
+    width: 620px;
+    position: fixed;
+    top: 125px;
+    left: 375px;
+    text-align: center;
+}
+#woodcount {
+    position: relative;
+    top: 15px;
+    color: white;
+    left: 0px;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+#autowood {
+    position: relative;
+    top: 20px;
+    color: white;
+    left: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+.box {
+    height: 46px;
+    width: 100px;
+    position: absolute;
+    background: url(woodbox1.jpg);
+}
+.box p {
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -17px;
+    -user-select: none;
+}
+.box:hover {
+    cursor: pointer;
+}
+#box1 {
+    left: 369px;
+    top: 52px;
+    border: 1px solid black;
+}
+#box2 {
+    left: 369px;
+    top: 0px;
+    border: 1px solid black;
+}
+#box3 {
+    left: 900px;
+    top: 0px;
+    border: 1px solid black;
+}
+#box4 {
+    top: 52px;
+    left: 900px;
+    border: 1px solid black;
+}
+
+
+
+/* Upgrades   */
+
+.rightdiv {
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    width: 26%;
+    height: 100%;
+    background-image: url(copeau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.upgrades {
+    background-image: url(concrete.jpg);
+    width: 95%;
+    min-height: 75px;
+    max-height: 75px;
+    margin-left: 2.5%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#upgradeTitle {
+    height: 150px;
+    width: 95%;
+    min-height: 150px;
+    max-height: 150px;
+    background-image: url(upgrades.jpg);
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+#nails {
+    margin-top: 15px;
+}
+.hiddenSup {
+    display: none;
+}
