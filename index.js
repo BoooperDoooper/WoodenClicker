@@ -165,32 +165,6 @@ function woodAdd() {
     if (woodDisplay >= 10000) {
         statiq = " Wood";
     }
-    // if (woodDisplay >= 500){
-    //     saw.classList.remove("hiddenSup");
-    //     saw.style = 'display: block;'
-    // }
-    // if (woodDisplay >= 1000){
-    //     drill.classList.remove("hiddenSup");
-    //     drill.style = 'display: block;'
-    // }
-    // if (woodDisplay >= 10000){
-    //     nailGun.classList.remove("hiddenSup");
-    //     nailGun.style = 'display: block;'
-    // }
-    // if (woodDisplay >= 100000){
-    //     chainSaw.classList.remove("hiddenSup");
-    //     chainSaw.style = 'display: block;'
-    // }
-    // if (woodDisplay >= 1000000){
-    //     lumberJack.classList.remove("hiddenSup");
-    //     lumberJack.style = 'display: block;'
-    //     woodChiper.classList.remove("hiddenSup");
-    //     woodChiper.style = 'display: block;'
-    //     woodWorking.classList.remove("hiddenSup");
-    //     woodWorking.style = 'display: block;'
-    //     beaver.classList.remove("hiddenSup");
-    //     beaver.style = 'display: block;'
-    // }
 }
 setInterval(autoAdd, 10);
 
@@ -200,7 +174,9 @@ function autoAdd() {
         statiq = " Wood";
     }
     woodCount.innerHTML = woodDisplay.toFixed(toFix) + statiq;
-    // if (woodDisplay >= 500){
+}
+
+  // if (woodDisplay >= 500){
     //     saw.classList.remove("hiddenSup");
     // }
     // if (woodDisplay >= 1000){
@@ -218,4 +194,3 @@ function autoAdd() {
     //     woodWorking.classList.remove("hiddenSup");
     //     beaver.classList.remove("hiddenSup");
     // }
-}
