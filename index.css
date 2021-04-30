@@ -2,7 +2,7 @@
     cursor: pointer;
 }
 body {
-    background: url(./Images/background.jpg);
+    background: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-touch-callout: none; 
@@ -13,7 +13,7 @@ body {
     user-select: none; 
 }
 .seperation {
-    background: url(./Images/woodsep.jpg);
+    background: url(woodsep.jpg);
 }
 #sep1 {
     position: fixed;
@@ -37,7 +37,7 @@ body {
     left: 369px;
     height: 10px;
     width: 635px;
-    background: url(./Images/woodbox1.jpg);
+    background: url(woodbox1.jpg);
     z-index: 0;
 }
 #wood {
@@ -48,7 +48,7 @@ body {
     top: 220px;
     left: 525px;
     width: 300px;
-    background-image: url(./Images/woodmain.jpg);
+    background-image: url(woodmain.jpg);
     filter: saturate(150%);
     image-rendering: auto;
     background-size: cover;
@@ -88,7 +88,7 @@ body {
     height: 46px;
     width: 100px;
     position: absolute;
-    background: url(./Images/woodbox1.jpg);
+    background: url(woodbox1.jpg);
 }
 .box p {
     font-weight: bold;
@@ -132,7 +132,7 @@ body {
     top: 2px;
     right: 2px;
     width: 26%;
-    background-image: url(./Images/copeau.jpg);
+    background-image: url(copeau.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -140,7 +140,7 @@ body {
     overflow-y: scroll;
 }
 .upgrades {
-    background-image: url(./Images/concrete.jpg);
+    background-image: url(concrete.jpg);
     width: 240px;
     min-height: 50px;
     max-height: 50px;
@@ -162,7 +162,7 @@ body {
     width: 95%;
     min-height: 150px;
     max-height: 150px;
-    background-image: url(./Images/upgrades.jpg);
+    background-image: url(upgrades.jpg);
     margin-left: 10px;
     margin-top: 5px;
     text-align: center;
@@ -185,7 +185,7 @@ body {
     font-size: 22px;
 }
 .costImg {
-    background-image: url(./Images/plank.jpg);
+    background-image: url(plank.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 20px;
